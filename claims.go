@@ -13,6 +13,7 @@ type Claims struct {
 	IssuedAt  int64       `json:"iat,omitempty"`
 	ExpiresAt int64       `json:"exp,omitempty"`
 	UserID    string      `json:"uid,omitempty"`
+	ID        string      `json:"id,omitempty"`
 	Claims    interface{} `json:"claims,omitempty"`
 }
 
